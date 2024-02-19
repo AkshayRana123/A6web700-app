@@ -168,7 +168,7 @@ function deleteStudentByNum(studentNum) {
   });
 }
 
-function addStudent(studentDat) {
+function addStudent(studentData) {
   studentData.TA = studentData.TA === 'on' ? true : false;
   for (const key in studentData) {
     if (studentData[key] === '') {
