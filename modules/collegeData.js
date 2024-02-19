@@ -108,7 +108,7 @@ function getTAs() {
   });
 }
 
-function getAllStudent() {
+function getAllStudents() {
   return Student.findAll()
     .then((students) => {
       if (students.length === 0) {
